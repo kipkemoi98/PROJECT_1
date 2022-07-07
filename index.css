@@ -23,15 +23,17 @@ div{
    .logo {
     font-size: 32px;
     font-weight: bold;
-    font-family: 'Lobster', cursive;
+    font-family: serif;
+    font-style: italic;
 }
-   /* NAVBAR MENU */
-   .menu {
+  /* NAVBAR MENU */
+  .menu {
     display: flex;
     gap: 1em;
     font-size: 18px;
    }
-   .topnav a{
+
+   .top_nav a{
     float: left;
     color: rgb(53, 49, 49);
     text-align: center;
@@ -40,7 +42,7 @@ div{
     font-size: 17px;
     font-style: Space Grotesk;
    }
-    .topnav a.active {
+    .top_nav a.active {
         font-weight: bolder;
         color: #2549D3;
         height: 1px;
@@ -48,7 +50,7 @@ div{
         h1{
             color: #2549D3;
         }
-   .button {
+.get_started_btn{
   background-color: #0F298B;
   border: none;
   color: #FAFAFA;
@@ -70,21 +72,17 @@ div{
   select option:first-child{
     color: green;
   }
-.section1{
+  .section1{
     width: 50%;
     margin:100px auto 100px auto;
     text-align: left;
 }
-.image1{
-    width: 70%;
-    float: right;
+.house{
+    float: left;
+    width: 70px
     margin-left: 30px;
 }
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-  }
+
   /* Clearfix (clear floats) */
   .row::after {
     content: "";
@@ -106,7 +104,7 @@ div{
 .select-property__option{
     padding: 3rem;
 }
-.PR{
+.product{
     width: 55%;
     margin: 50px;
 }
@@ -131,7 +129,7 @@ div{
     padding: 50px;
     margin-left: 40px;
 }
-.choose_us{
+.choose{
     width: 50%;
     margin:100px auto 100px auto;
     text-align: center;
@@ -190,7 +188,7 @@ div{
     display: inline-flex;
     overflow: hidden;
 }
-.ipsum{
+.j{
     width: 50%;
     margin:100px auto 100px auto;
     text-align: center;
@@ -202,10 +200,6 @@ div{
 margin-top: 0px;
 margin-bottom: 200px;
 margin-left: 0%;
-}
-.footer{
-    background-color: #0F298B;
-    display: inline-flex;
 }
 .f{
 width: 50ppx;
@@ -225,7 +219,15 @@ color: #FAFAFA;
 .column1{
     text-align: justify;
 } */
-
+.z{
+    margin: auto;
+}
+.s{
+    display: flex;
+    border: solid white;
+    background-color: blue;
+    color: white
+}
 
 
 
