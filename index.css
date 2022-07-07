@@ -27,7 +27,7 @@ div{
     font-style: italic;
 }
   /* NAVBAR MENU */
-  .menu {
+  .menu{
     display: flex;
     gap: 1em;
     font-size: 18px;
@@ -117,11 +117,11 @@ div{
 .works{
     margin: 0px;
 }
-.home{
+.find_home{
     display: inline-flex;
     overflow: hidden;
 }
-.im{
+.house_images{
     width: 50%;
     margin:100px auto 100px auto;
     text-align: center;
@@ -139,13 +139,7 @@ div{
     float: left;
     margin-right: 100px;
 }
-.us{
-    /* clear: both; */
-    /* display: inline-block; */
-    overflow: visible;
-    /* white-space: nowrap; */
-}
-.lifestyles{
+.quality_lyfestiles{
     overflow: visible;
     white-space: nowrap;
 }
@@ -155,9 +149,11 @@ div{
     justify-content: center;
     gap: 10px;
 } */
-.featured_properties{
+.fp{
     display: inline-flex;
     overflow: hidden;
+    justify-content: center;
+    flex-direction: row;
 }
     .properties{
         width: 50%;
@@ -166,9 +162,6 @@ div{
     background-color: white;
     padding: 50px;
     margin-left: 40px;
-    }
-    .dup{
-        float: left;
     }
    .p5{
     color: #2549D3;
@@ -227,6 +220,24 @@ color: #FAFAFA;
     border: solid white;
     background-color: blue;
     color: white
+}
+.g{
+    display: flex;
+    flex-direction: row;
+}
+.b{
+    display: flex;
+    flex-direction: row;
+}
+#w{
+    font-size: 36px;
+    color: blue;
+    flex-direction: row;
+}
+.property_1{
+    overflow: auto;
+    text-align: center;
+    line-height: 2; 
 }
 
 
