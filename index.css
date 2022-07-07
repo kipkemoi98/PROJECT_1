@@ -81,12 +81,6 @@ div{
     float: left;
     width: 70px
 }
-  /* Clearfix (clear floats) */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
 .p1{
     font-size: 16px;
 }
@@ -105,12 +99,6 @@ div{
 .product{
     width: 55%;
     margin: 50px;
-}
-.p2{
-    font-style: normal;
-    line-height: 150%;
-    word-spacing: 0.2em;
-    margin-left: 30px;
 }
 .works{
     margin: 0px;
